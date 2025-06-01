@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Nook Library - Information</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://via.placeholder.com/100x100.png?text=KNL" alt="Knowledge Nook Library Logo" class="logo">
+            <h1>Welcome to<br>KNOWLEDGE NOOK LIBRARY!</h1>
+        </header>
+
+        <main>
+            <section id="attendance" class="card animate-on-scroll">
+                <h2><i class="fas fa-clipboard-check"></i> Attendance Request</h2>
+                <p>To ensure a smooth and organized experience at our library, we kindly request all visitors to adhere to the following attendance guidelines:</p>
+                <h3>Sign-In Procedure:</h3>
+                <ul>
+                    <li>All visitors must sign in upon entering the library. This helps us maintain an accurate record of library usage and ensures the safety of our patrons.</li>
+                    <li>Provide your name, allotted seat number, and entry time at the main entrance desk or through our digital check-in system.</li>
+                    <li>Please present your latest payment receipt or payment card.</li>
+                </ul>
+            </section>
+
+            <section id="hours" class="card animate-on-scroll">
+                <h2><i class="fas fa-clock"></i> Library Hours</h2>
+                <p><strong>Sunday to Saturday:</strong> 24-Hours available</p>
+                <h3>Night Stay:</h3>
+                <p>Get in Before 11pm, and exit after 6am. For security reasons, entry and exit are not allowed during these night hours.</p>
+            </section>
+
+            <section id="services" class="card animate-on-scroll">
+                <h2><i class="fas fa-concierge-bell"></i> Library Services</h2>
+                <h3>Study Areas</h3>
+                <div class="service-grid">
+                    <div class="service-item">
+                        <h4><i class="fas fa-chalkboard-teacher"></i> Quiet Study Halls</h4>
+                        <p>For individual study, located as Hall01 & Hall02.</p>
+                    </div>
+                    <div class="service-item">
+                        <h4><i class="fas fa-door-closed"></i> Premium Rooms</h4>
+                        <p>For individual study, located as Room01 & Room02.</p>
+                    </div>
+                    <div class="service-item">
+                        <h4><i class="fas fa-users"></i><i class="fas fa-utensils"></i> Group Study & Lunch Desks</h4>
+                        <p>Available on the third floor.</p>
+                    </div>
+                </div>
+
+                <h3><i class="fas fa-wifi"></i> Wi-Fi Controls</h3>
+                <div class="wifi-details">
+                    <h4>Hall 01</h4>
+                    <p><strong>Network Name:</strong> Knowledge nook library jio</p>
+                    <p><strong>Password:</strong> <span id="wifi-pass-1">Kanha@123</span> <button class="copy-btn" data-target="wifi-pass-1" title="Copy Password"><i class="fas fa-copy"></i></button></p>
+                </div>
+                <div class="wifi-details">
+                    <h4>Hall 02 + Premium Rooms</h4>
+                    <p><strong>Network Name:</strong> AirFiber</p>
+                    <p><strong>Password:</strong> <span id="wifi-pass-2">Library#321</span> <button class="copy-btn" data-target="wifi-pass-2" title="Copy Password"><i class="fas fa-copy"></i></button></p>
+                </div>
+            </section>
+
+            <section id="etiquette" class="card animate-on-scroll">
+                <h2><i class="fas fa-book-reader"></i> Library Etiquette</h2>
+                <ul>
+                    <li><strong>Silence Your Devices:</strong> Please keep your mobile devices silent to maintain a quiet environment.</li>
+                    <li><strong>Respect Others' Space:</strong> Be mindful of noise levels and personal space.</li>
+                    <li><strong>Food and Drink:</strong> To maintain cleanliness, food and drinks may have restrictions, but you are welcome to enjoy snacks in the designated lounge areas.</li>
+                </ul>
+            </section>
+
+            <section id="help" class="card animate-on-scroll">
+                <h2><i class="fas fa-question-circle"></i> Getting Help</h2>
+                <p>We’re always here to assist you. If you have any questions or need help, don’t hesitate to ask at the administrative office or simply call <a href="tel:8102003094" class="phone-link"><strong><i class="fas fa-phone-alt"></i> 8102003094</strong></a>.</p>
+            </section>
+
+            <section id="contact" class="card animate-on-scroll">
+                <h2><i class="fas fa-address-book"></i> Contact Us</h2>
+                <p><i class="fas fa-phone-alt"></i> Phone: <a href="tel:7903547986" class="phone-link">7903547986</a>, <a href="tel:9717490285" class="phone-link">9717490285</a></p>
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:knowledgenooklibrary@gmail.com" class="email-link">knowledgenooklibrary@gmail.com</a></p>
+            </section>
+
+            <section id="feedback" class="card animate-on-scroll">
+                <h2><i class="fas fa-comment-dots"></i> We’d love your feedback!</h2>
+                <p>Help us improve by leaving a review on:</p>
+                <div class="rating-stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <div class="review-links">
+                    <a href="#" target="_blank" class="review-link google-maps"><i class="fab fa-google"></i> Google Maps</a>
+                    <a href="#" target="_blank" class="review-link justdial"><i class="fas fa-map-marker-alt"></i> JustDial</a>
+                </div>
+            </section>
+
+            <section class="closing-message animate-on-scroll">
+                <p>Welcome to our library, a place dedicated to your success! Whether you're here to prepare for exams, advance in your career, or work toward your goals, we are thrilled to have you. This guide will help you make the most of your time and create a focused, productive environment. Wishing you success in your journey—happy learning!</p>
+            </section>
+        </main>
+
+        <footer>
+            <div class="social-media">
+                <a href="#" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" target="_blank" title="JustDial"><i class="fas fa-map-signs"></i></a>
+                <a href="#" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>© 2024 Knowledge Nook Library. All Rights Reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
